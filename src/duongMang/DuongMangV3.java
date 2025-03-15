@@ -6,9 +6,9 @@ import java.util.List;
 public class DuongMangV3 {
 
 	public static void main(String[] args) {
-		int[] ipAddress = {80, 0, 0, 0};
-		int numberOfComputerOrSubnet = 1100;
-		boolean isNumberOfSubnet = true;
+		int[] ipAddress = {172, 16, 0, 0};
+		int numberOfComputerOrSubnet = 600;
+		boolean isNumberOfSubnet = false;
 
 		calculate(ipAddress, numberOfComputerOrSubnet, isNumberOfSubnet);
 	}
